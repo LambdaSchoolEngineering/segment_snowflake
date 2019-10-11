@@ -1,5 +1,5 @@
 view: tracks {
-  sql_table_name: SHOPIFY.tracks ;;
+  sql_table_name: SEGMENT.LAMBDASCHOOL_COM_ANALYTICS_JS.tracks ;;
 
   dimension: id {
     primary_key: yes

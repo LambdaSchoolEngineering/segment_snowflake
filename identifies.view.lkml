@@ -1,5 +1,5 @@
 view: identifies {
-  sql_table_name: SHOPIFY.identifies_view ;;
+  sql_table_name: SEGMENT.LAMBDASCHOOL_COM_ANALYTICS_JS.identifies_view ;;
 
   dimension: id {
     primary_key: yes

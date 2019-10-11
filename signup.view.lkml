@@ -1,5 +1,5 @@
 view: signup {
-  sql_table_name: SHOPIFY.signup_view ;;
+  sql_table_name: SEGMENT.LAMBDASCHOOL_COM_ANALYTICS_JS.signup_view ;;
 
   dimension: id {
     primary_key: yes

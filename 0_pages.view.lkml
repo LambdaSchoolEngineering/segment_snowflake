@@ -1,5 +1,5 @@
 view: pages {
-  sql_table_name: SHOPIFY.pages ;;
+  sql_table_name: SEGMENT.LAMBDASCHOOL_COM_ANALYTICS_JS.pages ;;
 
   dimension: id {
     primary_key: yes

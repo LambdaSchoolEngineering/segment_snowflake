@@ -1,19 +1,19 @@
 view: aliases_mapping {
   derived_table: {
-   # sql_trigger_value: select count(*) from SHOPIFY.tracks ;;
+   # sql_trigger_value: select count(*) from SEGMENT.LAMBDASCHOOL_COM_ANALYTICS_JS.tracks ;;
     sql: with
       all_mappings as (
         select anonymous_id
         , user_id
         , timestamp as timestamp
-        from SHOPIFY.tracks
+        from SEGMENT.LAMBDASCHOOL_COM_ANALYTICS_JS.tracks
 
         union distinct
 
         select user_id
           , null
           , timestamp
-        from SHOPIFY.tracks
+        from SEGMENT.LAMBDASCHOOL_COM_ANALYTICS_JS.tracks
       )
 
       select

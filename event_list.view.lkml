@@ -5,7 +5,7 @@ view: event_list {
    # sql_trigger_value: SELECT EXTRACT(DATE FROM CURRENT_TIMESTAMP() AT TIME ZONE 'US/Pacific') ;;
     sql: SELECT
         event as event_types
-      FROM SHOPIFY.tracks
+      FROM SEGMENT.LAMBDASCHOOL_COM_ANALYTICS_JS.tracks
       GROUP BY 1
        ;;
   }
